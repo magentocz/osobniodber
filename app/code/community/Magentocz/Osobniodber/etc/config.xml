@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+/** 
+* Magento CZ Module
+* 
+* NOTICE OF LICENSE 
+* 
+* This source file is subject to the Open Software License (OSL 3.0) 
+* that is bundled with this package in the file LICENSE.txt. 
+* It is also available through the world-wide-web at this URL: 
+* http://opensource.org/licenses/osl-3.0.php 
+* If you did of the license and are unable to 
+* obtain it through the world-wide-web, please send an email 
+* to magentocz@gmail.com so we can send you a copy immediately. 
+* 
+* @copyright Copyright (c) 2014 Magento CZ (http://www.magento.cz)
+* 
+*/ 
+-->
+<config>
+    <modules>
+        <Magentocz_Osobniodber>
+            <version>1.0.0.0</version>
+        </Magentocz_Osobniodber>
+    </modules>
+    <global>
+        <models>
+            <magentocz_osobniodber>
+                <class>Magentocz_Osobniodber_Model</class>
+            </magentocz_osobniodber>
+        </models>
+
+    </global>
+    
+    <adminhtml>
+        <translate>
+            <modules>
+                <Magentocz_Osobniodber>
+                    <files>
+                        <default>Magentocz_Osobniodber.csv</default>
+                    </files>
+                </Magentocz_Osobniodber>
+            </modules>
+        </translate>
+    </adminhtml>
+    
+    <frontend>
+        <translate>
+            <modules>
+                <Magentocz_Osobniodber>
+                    <files>
+                        <default>Magentocz_Osobniodber.csv</default>
+                    </files>
+                </Magentocz_Osobniodber>
+            </modules>
+        </translate>
+    </frontend>
+
+    <default>
+        <carriers>
+ 
+            <osobniodber>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>magentocz_osobniodber/carrier_osobniodber</model>
+                <name>Personal taking</name>
+                <price>5.00</price>
+                <title>Personal taking</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </osobniodber>
+
+        </carriers>
+    </default>
+</config>

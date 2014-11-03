@@ -1,0 +1,104 @@
+<_>
+   <form_key>ynyHgHwE6Iv7wxiM</form_key>
+   <name>Magentocz_Osobniodber</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+      <version_ids>1</version_ids>
+   </version_ids>
+   <summary>Modul přidává do Magento dodací metodu - Osobní odběr</summary>
+   <description>Osobní odběr umožňuje obchodníkovi použít cenový model pro výpočet ceny za osobní odběr zákazníkem na pobočce.
+
+Support:
+ - https://github.com/magentocz/osobniodber/issues</description>
+   <license>OSL v3</license>
+   <license_uri>http://www.opensource.org/licenses/osl-3.0.php</license_uri>
+   <version>1.0.0.0</version>
+   <stability>stable</stability>
+   <notes>Verze modulu otestována na Magento CE 1.9</notes>
+   <authors>
+      <name>
+         <name>Jaromír Müller</name>
+      </name>
+      <user>
+         <user>jaromirmuller</user>
+      </user>
+      <email>
+         <email>jaromir.muller@getready.cz</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0.0</depends_php_min>
+   <depends_php_max>6.0.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>               </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+      </target>
+      <path>
+         <path/>
+         <path>Magentocz/Osobniodber</path>
+         <path>modules/Magentocz_Osobniodber.xml</path>
+         <path>cs_CZ/Magentocz_Osobniodber.csv</path>
+         <path>en_US/Magentocz_Osobniodber.csv</path>
+         <path>sk_SK/Magentocz_Osobniodber.csv</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>

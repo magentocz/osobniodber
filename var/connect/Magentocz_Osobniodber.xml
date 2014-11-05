@@ -24,7 +24,7 @@ Support:
          <user>jaromirmuller</user>
       </user>
       <email>
-         <email>jaromir.muller@getready.cz</email>
+         <email>https://twitter.com/jaromirmuller</email>
       </email>
    </authors>
    <depends_php_min>5.2.0.0</depends_php_min>
